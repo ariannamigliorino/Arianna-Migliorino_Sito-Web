@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+header {
+    max-width: 1120px;
+    margin: auto;
+    display: flex;    
+}
+
+header p {
+    margin: 50px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+header p a {
+    text-decoration: none;
+    color: white;
+}      
+ 
+header nav ul {
+    margin: 50px;
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    gap: 37px;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 600px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: white;
+}
+ 
+header nav ul a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Immagine {
+    background-color: #720D43;
+    padding-left: 100px;
+    padding-top: 4px;
+}
+
+.Paragrafo1 {
+    margin: auto;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}    
+
+.Paragrafo2 {
+    margin: auto;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #720D43;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    gap: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+footer nav ul a {
+    text-decoration: none;
+    color: white;
+}
+ 
+footer nav ul a:hover {
+    text-decoration: underline;
+}
+
+.Grassetto {
+    font-weight: bold;
+    list-style-type: none;
+    font-family: "Magra", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.Lista {
+    list-style-type: none;
+    font-family: "Magra", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
