@@ -7,13 +7,13 @@ body {
 header {
     max-width: 1120px;
     margin: auto;
-    display: flex;    
+    display: flex;
+    justify-content: space-between;    
 }
 
 header p {
     font-size: 24px;
     color: white;
-    text-decoration: none;
     font-family: "Magra", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -33,7 +33,6 @@ header nav ul {
     font-family: "Magra", sans-serif;
     font-weight: 400;
     font-style: normal;
-    padding-left: 800px;
 }
 
 header nav ul a {
@@ -55,29 +54,27 @@ h1 {
 
 .Immagine {
     background-color: #720D43;
-    padding-left: 100px;
+    padding-left: 185px;
     padding-top: 4px;
 }
 
 .Paragrafo1 {
-    margin: auto;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
     font-family: "Magra", sans-serif;
     font-weight: 400;
     font-style: normal;
 }    
 
 .Paragrafo2 {
-    margin: auto;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
     background-color: #720D43;
     font-family: "Magra", sans-serif;
     font-weight: 400;
@@ -89,7 +86,7 @@ footer {
     gap: 80px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 100px;
+    padding-left: 350px;
 }
 
 footer nav ul a {
